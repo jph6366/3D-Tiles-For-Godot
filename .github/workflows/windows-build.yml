@@ -36,7 +36,7 @@ jobs:
       run: dir godot3dtiles/bin
 
     - name: Upload Artifact
-      uses: actions/upload-artifact@v3
+      uses: actions/upload-artifact@v4
       with:
         name: godot3dtiles-single-precision
         path: godot3dtiles/
